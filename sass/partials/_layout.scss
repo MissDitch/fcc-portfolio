@@ -8,7 +8,7 @@ body {
     margin: 5px 0 0 0;
     text-align: center;
     position: relative;
-    background-attachment: fixed;
+    background-attachment: fixed !important;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -25,15 +25,13 @@ h2 {
 p {
     display:inline-block;
     position: absolute;
-    bottom: 5rem; 
+    bottom: 5.3rem; 
 }
 .blok {
     margin: 1.5rem;
     max-width: 24rem;
     height: 20rem;
-    overflow: hidden;
-    background: $dark;
-    border-radius: 2rem;
+    overflow: hidden;    
 }
 .main {
     max-width: 90rem;
